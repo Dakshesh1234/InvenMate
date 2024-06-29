@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InvenMate: Inventory Management System
 
-## Getting Started
+This project is an Inventory Management System built with React, Next.js, and MongoDB. It allows users to manage product data efficiently, including CRUD operations and real-time updates.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **CRUD Operations:** Add, update, and delete products from the inventory.
+- **Search Functionality:** Search products by name with real-time filtering.
+- **Dynamic UI:** Responsive user interface with React and Tailwind CSS.
+- **Backend API:** Next.js API Routes handle backend logic for seamless data management.
+- **Database Integration:** MongoDB stores product information securely and efficiently.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Deployment:** Heroku (optional, if deployed)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/your-username/inventory-management.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate into the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   cd inventory-management
+   ```
 
-## Deploy on Vercel
+3. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Set up MongoDB:
+   - Ensure MongoDB is installed and running locally or use a cloud-based MongoDB service.
+   - Update the MongoDB URI in `.env` file if necessary.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the application in your browser:
+
+   ```bash
+   http://localhost:3000
+   ```
+
+## Usage
+
+- Add new products by filling out the form in the "Add Product" section.
+- Delete products using the delete button in the "Current Stock" table.
+- Search for products by entering keywords in the search bar to filter results.
+- Update product quantities and prices directly in the dropdown menu.
+
+## Contributing
+
+Contributions are welcome! Fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Feel free to customize this template further based on specific details of your project, such as additional features, deployment instructions, or specific configuration steps. Adjust the sections to best fit the structure and needs of your GitHub repository's README file.
