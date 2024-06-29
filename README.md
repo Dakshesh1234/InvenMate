@@ -22,13 +22,13 @@ This project is an Inventory Management System built with React, Next.js, and Mo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/inventory-management.git
+   git clone https://github.com/Dakshesh1234/InvenMate
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd inventory-management
+   cd InvenMate
    ```
 
 3. Install dependencies:
